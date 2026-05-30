@@ -169,9 +169,11 @@ function Sidebar({ activeView, onChange }: { activeView: ViewKey; onChange: (vie
   return (
     <aside className="sidebar">
       <div className="brand">
-        <span className="brand-mark">AF</span>
+        <span className="brand-mark logo-mark">
+          <img src="/programa-leiloes-logo.jpg" alt="Programa Leiloes" />
+        </span>
         <div>
-          <strong>AgroFrete</strong>
+          <strong>Programa Leiloes</strong>
           <span>CRM Logistico</span>
         </div>
       </div>
